@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-myfirst",
+  "version": "1.0.0",
+  "description": "nodejs-myfirst",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vignesh",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  },
+  "license": "MIT",
+  "repository": {}
+}
