@@ -1,6 +1,6 @@
 FROM node:8.16.1-alpine
 WORKDIR /app
-COPY package.json /app
+COPY /Projects/myFirstNodejs/Dockerfile/package.json /app
 RUN npm install
 EXPOSE 5000
 COPY . /app
