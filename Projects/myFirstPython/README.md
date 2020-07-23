@@ -1,4 +1,4 @@
-# Docker
+# Simple Python App using Docker
 
 ## Registry/Repository: 
 https://hub.docker.com/repository/docker/iamvignesh/myfirstpython
