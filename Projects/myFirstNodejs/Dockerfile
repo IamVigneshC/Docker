@@ -1,9 +1,8 @@
 FROM node:8.16.1-alpine
 WORKDIR /app
 COPY package*.json ./
-#COPY . /app
+COPY . /app
 RUN npm install
-COPY . .
 EXPOSE 5000
 CMD node index.js
 
