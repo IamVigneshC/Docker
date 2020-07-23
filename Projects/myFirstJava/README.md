@@ -4,7 +4,9 @@
 https://hub.docker.com/repository/docker/iamvignesh/myfirstjava
 
 ## Build, Tag, Push Image:
-'docker build -t iamvignesh/myfirstjava:v1.0 .
+```sh
+docker build -t iamvignesh/myfirstjava:v1.0 .
+```
 
 docker images
 docker tag 76d03cf iamvignesh/myfirstjava:v1.0
