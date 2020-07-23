@@ -25,4 +25,4 @@ docker run -p 5000:5000 iamvignesh/myfirstjava:v1.0
 
 ## Output:
 
-"message\":\"My First Java using Docker v1\"
+{"message":"My First Java using Docker v1"}
