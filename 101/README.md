@@ -56,7 +56,50 @@ docker ps shows you what containers are running:
 ` $ sudo docker ps `
 
 CONTAINER ID IMAGE         COMMAND             CREATED      STATUS
+
 d2026870ef   ubuntu:12.04 /bin/bash −c while t 1 minute ago Up 1 min
+
+
+## More on Container IDs
+
+Typically, you will want to store the ID
+
+` $ MY_ECHO=$( sudo docker run −d ubuntu /bin/bash 
+−c ” echo hi ” )
+$ sudo docker logs $MY_ECHO `
+
+hi 
+
+Detached Mode (e.g. docker run -d)
+
+• Docker run response is the container ID
+
+• To capure the output, we use $(...)
+
+• This output is stored into variable MY ECHO,
+
+and later retrieved with $MY ECHO
+
+• Interactive Mode (e.g. docker run -i -t)
+
+• Run container, modify, then exit. Container is now stopped
+
+• Use docker ps -a to show all containers, incl. stopped ones
+
+• Or use docker ps -l -q to show the last container ID
+
+
+$ sudo docker ps −a
+CONTAINER ID IMAGE COMMAND CREATED STATUS
+d2026870 e f ubuntu : 1 2 . 0 4 / b i n / b a sh −c w h i l e t 1 mi n u te ago E x i t 0
+$ sudo d o c k e r p s −q −l
+d 2 0 2 6 8 7 0 e f
+
+
+
+
+
+
 
 
 
