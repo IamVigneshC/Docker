@@ -90,10 +90,15 @@ and later retrieved with $MY ECHO
 
 
 $ sudo docker ps −a
+
 CONTAINER ID IMAGE COMMAND CREATED STATUS
-d2026870 e f ubuntu : 1 2 . 0 4 / b i n / b a sh −c w h i l e t 1 mi n u te ago E x i t 0
-$ sudo d o c k e r p s −q −l
-d 2 0 2 6 8 7 0 e f
+
+d2026870ef ubuntu:12.04/bin/bash −c while t 1 minute ago Exit 0
+
+
+$ sudo docker ps −q −l
+
+d2026870ef
 
 
 
