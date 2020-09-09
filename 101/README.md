@@ -125,13 +125,3 @@ If docker run does not find the image locally, it will automatically search know
 
 ` $ sudo docker pull iamvignesh/myotherapp `
 
-
-
-
-
-
-
-
-
-
-
