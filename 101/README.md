@@ -89,14 +89,14 @@ and later retrieved with $MY ECHO
 • Or use docker ps -l -q to show the last container ID
 
 
-$ sudo docker ps −a
+` $ sudo docker ps −a `
 
 CONTAINER ID IMAGE COMMAND CREATED STATUS
 
 d2026870ef ubuntu:12.04/bin/bash −c while t 1 minute ago Exit 0
 
 
-$ sudo docker ps −q −l
+` $ sudo docker ps −q −l `
 
 d2026870ef
 
